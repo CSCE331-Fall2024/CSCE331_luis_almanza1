@@ -30,6 +30,33 @@ h1{
     height: auto; 
 }
 
+.social_image {
+    position: fixed; 
+    left: 63.5%; 
+    width: 250px; 
+    top: 285px;
+    z-index: 2;
+    opacity: 0;
+}
+
+.qualifications {
+    position: fixed; 
+    left: 27.75%; 
+    width: 200px; 
+    top: 285px;
+    z-index: 2;
+    opacity: 0;
+}
+
+.services {
+    position: fixed; 
+    left: 26%; 
+    width: 250px; 
+    top: 300px;
+    z-index: 2;
+    opacity: 0;
+}
+
 .project1{
     position: fixed; 
     top: 30px; 
@@ -117,10 +144,27 @@ h1{
     align-items: center; 
     justify-content: center;
     position: absolute; 
-    top: 91%; 
+    top: 90%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
-    gap: 10px; 
+    gap: 2px;
+}
+.parallelogram-container2 a, .parallelogram-container2 button {
+    text-decoration: none; /* Remove underline from links */
+    color: #292b2c; /* Same color as links */
+    background-color: transparent; /* Make button background transparent */
+    border: none; /* Remove default button border */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: inherit; /* Same font size */
+    cursor: pointer; /* Add pointer cursor for interactivity */
+    padding: 0; /* Remove padding to match link style */
+    text-align: right; /* Aligns text to the right */
+    margin-top: 10px; /* Optional: space between button and links */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .parallelogram-container3 {
@@ -210,6 +254,27 @@ h1{
     margin-right: 250px 
 }
 
+.parallelogram-container11 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+    position: absolute;
+    left: 0;
+    top: 200px;
+    margin-left: 275px;
+}
+
+.parallelogram-container12 {
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-end; 
+    position: absolute; 
+    right: 0; 
+    top: 500px; 
+    margin-right: 250px 
+}
+
 .parallelogram_s1{
     display: inline-block;
     padding: 10px;
@@ -248,11 +313,13 @@ h1{
 }
 
 .parallelogram_s1 span, .parallelogram_s2 span, .parallelogram_s2 ul, .parallelogram_s3 span{
-    display: block;
+    display: flex;
     transform: skew(-20deg);
     transform-origin: top left;
     color: white;
     text-decoration: none;
+    gap: 15px; /* Optional: spacing between links and button */
+
 }
 
 .parallelogram_s2 ul {
@@ -286,6 +353,7 @@ h1{
     height: 250px;
     background-color: #48b292;
     right: 287px;
+    opacity: 0;
 }
 
 #background-parallelogram2 {
@@ -294,6 +362,7 @@ h1{
     height: 190px;
     background-color: #122f47;
     right: 350px;
+    opacity: 0;
 }
 
 #background-parallelogram3 {
@@ -302,6 +371,7 @@ h1{
     height: 225px;
     background-color: #d22f99;
     right: 205px;
+    opacity: 0;
 }
 
 #background-parallelogram4 {
@@ -310,6 +380,7 @@ h1{
     height: 125px;
     background-color: #ffa500;
     right: 410px;
+    opacity: 0;
 }
 
 .textbox1 {
@@ -372,6 +443,49 @@ h1{
     margin-left: 215px;
 }
 
+.textbox5 {
+    position: absolute;
+    padding: 10px;
+    width: 250px; 
+    border-radius: 4px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #292b2c;
+    bottom: 175px;
+    left: 250px;
+    z-index: 2;
+    writing-mode: vertical-rl; /* This makes the text flow vertically from right to left */
+    font-size: 100px;
+    opacity: 0;
+}
+
+.textbox6 {
+    position: absolute;
+    padding: 10px;
+    width: 250px; 
+    border-radius: 4px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #292b2c;
+    bottom: 175px;
+    left: 250px;
+    z-index: 2;
+    writing-mode: vertical-rl; /* This makes the text flow vertically from right to left */
+    font-size: 100px;
+    opacity: 0;
+}
+.textbox7 {
+    position: absolute;
+    padding: 10px;
+    width: 250px; 
+    border-radius: 4px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #292b2c;
+    bottom: 175px;
+    left: 250px;
+    z-index: 2;
+    writing-mode: vertical-rl; /* This makes the text flow vertically from right to left */
+    font-size: 100px;
+    opacity: 0;
+}
 
 
 body {
