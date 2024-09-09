@@ -3,7 +3,6 @@ html, body {
     margin: 0;
 }
 
-/* Apply relative positioning to body to contain absolute elements */
 body {
     position: relative;
     background: linear-gradient(to bottom, #5a5656 50%, #c7d9e7 50%);
@@ -13,7 +12,7 @@ body {
     width: 282px;
     position: absolute;
     background-color: #3498db;
-    z-index: 1; /* Ensure rectangles are above the background */
+    z-index: 1; 
 }
 
 .avatar_image {
@@ -48,7 +47,6 @@ body {
     z-index: 2;
 }
 
-/* First rectangle: stretches from the middle to the top */
 #background-parallelogram1{
     height: 67%;
     top: 0;
@@ -56,7 +54,6 @@ body {
     background-color: #6c8b76;
 }
 
-/* Second rectangle: stays in the middle */
 #background-parallelogram2 {
     height: 35%;
     bottom: 33%;
@@ -65,7 +62,6 @@ body {
     background-color: #747962;
 }
 
-/* Third rectangle: stretches from the middle to the bottom */
 #background-parallelogram3 {
     height: 68%;
     bottom: 0;
@@ -73,7 +69,6 @@ body {
     background-color: #d0ad9f;
 }
 
-/* Fourth rectangle: stretches from top to bottom */
 #background-parallelogram4{
     height: 100%;
     top: 0;
@@ -97,11 +92,11 @@ body {
 .parallelogram-container2 {
     display: flex; 
     flex-direction: column; 
-    justify-content: flex-start; /* Aligns the items to the top */
+    justify-content: flex-start;
     align-items: flex-end;
     position: absolute; 
-    top: 50px;  /* Sticks the container to the top */
-    right: 100px;  /* Sticks the container to the right */
+    top: 50px;  
+    right: 100px; 
     gap: 75px; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     z-index: 2;
@@ -111,25 +106,25 @@ body {
 }
 .parallelogram-container2 a, 
 .parallelogram-container2 button {
-    text-decoration: none; /* Remove underline from links */
-    color: #292b2c; /* Same color as links */
-    background-color: transparent; /* Make button background transparent */
-    border: none; /* Remove default button border */
-    font-family: inherit; /* Ensure font is the same */
-    font-size: inherit; /* Same font size */
-    cursor: pointer; /* Add pointer cursor for interactivity */
-    padding: 0; /* Remove padding to match link style */
-    display: block; /* Ensures button behaves like a block element, similar to links */
-    text-align: right; /* Aligns text to the right */
-    margin-top: 10px; /* Optional: space between button and links */
+    text-decoration: none; 
+    color: #292b2c; 
+    background-color: transparent; 
+    border: none; 
+    font-family: inherit; 
+    font-size: inherit; 
+    cursor: pointer; 
+    padding: 0; 
+    display: block; 
+    text-align: right; 
+    margin-top: 10px;
 }
 
 .parallelogram-container2 button:hover {
-    text-decoration: underline; /* Optional: hover effect similar to links */
+    text-decoration: underline; 
 }
 .parallelogram_s2 span {
-    display: block; /* Ensures the words are stacked on top of each other */
-    text-align: right; /* Aligns the text to the right */
+    display: block; 
+    text-align: right; 
 }
 
 .parallelogram-container3 {
@@ -345,7 +340,7 @@ body {
     left: 375px;
     top: 100pxs;
     z-index: 2;
-    writing-mode: vertical-rl; /* This makes the text flow vertically from right to left */
+    writing-mode: vertical-rl;
     font-size: 100px;
 }
 
@@ -359,7 +354,7 @@ body {
     left: 300px;
     top: 10px;
     z-index: 2;
-    writing-mode: vertical-rl; /* This makes the text flow vertically from right to left */
+    writing-mode: vertical-rl; 
     font-size: 50px;
 }
 
@@ -373,7 +368,7 @@ body {
     left: 300px;
     top: 25px;
     z-index: 2;
-    writing-mode: vertical-rl; /* This makes the text flow vertically from right to left */
+    writing-mode: vertical-rl; 
     font-size: 65px;
 }
 
